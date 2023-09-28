@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body{
+	display:grid;
+	grid-template-rows:1fr 3fr 1fr;
+	grid-template-columns:1fr 4fr 1fr ;
+	grid-template-areas:
+	"n h h"
+	"n a as"
+	"n f f";
+}
+.n1{
+	grid-area:n;
+	background-color:#D7E8D4;
+		
+}
+.n3{
+	grid-area:a;
+	height:60vh;
+	
+}
+.n2{
+	grid-area:h;
+	background-color:yellowgreen;
+}
+.n4{
+	grid-area:as;
+ background-color:red;
+}
+.n5{
+	grid-area:f;
+	background-color:yellowgreen;
+}
+
